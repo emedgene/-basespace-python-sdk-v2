@@ -1,9 +1,0 @@
-# This file is a part of template-python. Manual changes will be overwritten.
-
-[run]
-branch = True
-omit =
-    */tests/*
-
-[report]
-show_missing = True

@@ -1,1 +1,0 @@
-.emgbuild/CONTRIBUTING.md

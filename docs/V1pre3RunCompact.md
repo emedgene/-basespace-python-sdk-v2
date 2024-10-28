@@ -1,0 +1,55 @@
+# V1pre3RunCompact
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**id** | **str** |  | 
+**href** | **str** |  | 
+**name** | **str** |  | [optional] 
+**number** | **int** |  | [optional] 
+**experiment_name** | **str** |  | [optional] 
+**status** | **str** |  | [optional] 
+**reagent_barcode** | **str** |  | [optional] 
+**flowcell_barcode** | **str** |  | [optional] 
+**buffer_barcode** | **str** |  | [optional] 
+**date_created** | **datetime** |  | [optional] 
+**date_modified** | **datetime** |  | [optional] 
+**aggregate_run_state** | **str** |  | [optional] 
+**user_owned_by** | [**V1pre3UserCompact**](V1pre3UserCompact.md) |  | [optional] 
+**user_uploaded_by** | [**V1pre3UserCompact**](V1pre3UserCompact.md) |  | [optional] 
+**user_locked_by** | [**V1pre3UserCompact**](V1pre3UserCompact.md) |  | [optional] 
+**instrument_locked_by** | [**RegisteredInstrumentCompact**](RegisteredInstrumentCompact.md) |  | [optional] 
+**total_size** | **int** |  | [optional] 
+**platform_name** | **str** |  | [optional] 
+**workflow** | **str** |  | [optional] 
+**instrument** | [**RegisteredInstrumentCompact**](RegisteredInstrumentCompact.md) |  | [optional] 
+**instrument_name** | **str** |  | [optional] 
+**instrument_type** | **str** |  | [optional] 
+**num_cycles_read1** | **int** |  | [optional] 
+**num_cycles_read2** | **int** |  | [optional] 
+**num_cycles_index1** | **int** |  | [optional] 
+**num_cycles_index2** | **int** |  | [optional] 
+**href_base_space_ui** | **str** |  | [optional] 
+**has_collaborators** | **bool** |  | [optional] 
+**is_transfer_pending** | **bool** |  | [optional] 
+**is_transfer_in_progress** | **bool** |  | [optional] 
+**is_deleted** | **bool** |  | [optional] 
+**is_archived** | **bool** |  | [optional] 
+**is_zipping** | **bool** |  | [optional] 
+**is_zipped** | **bool** |  | [optional] 
+**is_unzipping** | **bool** |  | [optional] 
+**is_file_data_deleted** | **bool** |  | [optional] 
+**sequencing_stats** | [**SequencingStatsCompact**](SequencingStatsCompact.md) |  | [optional] 
+**prep_settings** | [**PrepSettings**](PrepSettings.md) |  | [optional] 
+**expected_instrument_completion_date** | **datetime** |  | [optional] 
+**prep_error_code** | **str** |  | [optional] 
+**analysis_settings** | [**AnalysisSettings**](AnalysisSettings.md) |  | [optional] 
+**lane_and_qc_status** | **str** |  | [optional] 
+**lims_status** | **str** |  | [optional] 
+**side** | **str** |  | [optional] 
+**date_instrument_started** | **datetime** |  | [optional] 
+**date_instrument_completed** | **datetime** |  | [optional] 
+**sample_sheet_name** | **str** |  | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+

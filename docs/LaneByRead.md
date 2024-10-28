@@ -1,0 +1,47 @@
+# LaneByRead
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**read_number** | **int** |  | [optional] 
+**lane_number** | **int** |  | [optional] 
+**tile_count** | **int** |  | [optional] 
+**density** | **float** |  | [optional] 
+**density_deviation** | **float** |  | [optional] 
+**percent_pf** | **float** |  | [optional] 
+**percent_pf_deviation** | **float** |  | [optional] 
+**phasing** | **float** |  | [optional] 
+**pre_phasing** | **float** |  | [optional] 
+**reads** | **int** |  | [optional] 
+**reads_pf** | **int** |  | [optional] 
+**percent_gt_q30** | **float** |  | [optional] 
+**percent_gt_q30_last10_cycles** | **float** |  | [optional] 
+**_yield** | **float** |  | [optional] 
+**min_cycle_called** | **int** |  | [optional] 
+**max_cycle_called** | **int** |  | [optional] 
+**min_cycle_error** | **int** |  | [optional] 
+**max_cycle_error** | **int** |  | [optional] 
+**percent_aligned** | **float** |  | [optional] 
+**percent_aligned_deviation** | **float** |  | [optional] 
+**error_rate** | **float** |  | [optional] 
+**error_rate_deviation** | **float** |  | [optional] 
+**error_rate35** | **float** |  | [optional] 
+**error_rate35_deviation** | **float** |  | [optional] 
+**error_rate50** | **float** |  | [optional] 
+**error_rate50_deviation** | **float** |  | [optional] 
+**error_rate75** | **float** |  | [optional] 
+**error_rate75_deviation** | **float** |  | [optional] 
+**error_rate100** | **float** |  | [optional] 
+**error_rate100_deviation** | **float** |  | [optional] 
+**intensity_cycle1** | **float** |  | [optional] 
+**intensity_cycle1_deviation** | **float** |  | [optional] 
+**phasing_slope** | **float** |  | [optional] 
+**phasing_offset** | **float** |  | [optional] 
+**pre_phasing_slope** | **float** |  | [optional] 
+**pre_phasing_offset** | **float** |  | [optional] 
+**percent_no_calls** | **float** |  | [optional] 
+**cluster_density** | **float** |  | [optional] 
+**occupancy** | **float** |  | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+

@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "bssh_sdk_2"
+version = "0.1.0"
+description = ""
+authors = ["Emedgene <emedgene@illumina.com>"]
+readme = "README.md"
+
+packages = [
+    { include = "bssh_sdk_2" },
+]
+
+[tool.poetry.dependencies]
+python = "~3.10"
+certifi = "^2024.8.30"
+six = "^1.12.0"
+python-dateutil = "^2.9.0.post0"
+urllib3 = "^1.15.1"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.3"
+pytest-cov = "^5.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

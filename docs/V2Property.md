@@ -1,0 +1,45 @@
+# V2Property
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**user_modified_by** | [**V1pre3UserCompact**](V1pre3UserCompact.md) |  | [optional] 
+**application_modified_by** | [**V1pre3ApplicationCompact**](V1pre3ApplicationCompact.md) |  | [optional] 
+**date_modified** | **datetime** |  | [optional] 
+**type** | **str** |  | [optional] 
+**href** | **str** |  | [optional] 
+**name** | **str** |  | [optional] 
+**description** | **str** |  | [optional] 
+**content** | **str** |  | [optional] 
+**content_map** | [**MapContent**](MapContent.md) |  | [optional] 
+**application** | [**V1pre3ApplicationCompact**](V1pre3ApplicationCompact.md) |  | [optional] 
+**app_session** | [**V2AppSessionCompact**](V2AppSessionCompact.md) |  | [optional] 
+**bio_sample** | [**V2BiologicalSampleCompact**](V2BiologicalSampleCompact.md) |  | [optional] 
+**dataset** | [**V2DatasetCompact**](V2DatasetCompact.md) |  | [optional] 
+**file** | [**V1pre3FileCompact**](V1pre3FileCompact.md) |  | [optional] 
+**sample_library** | [**V2LibraryCompact**](V2LibraryCompact.md) |  | [optional] 
+**library_pool** | [**V1pre3LibraryPoolCompact**](V1pre3LibraryPoolCompact.md) |  | [optional] 
+**project** | [**V1pre3ProjectCompact**](V1pre3ProjectCompact.md) |  | [optional] 
+**run** | [**V1pre3RunCompact**](V1pre3RunCompact.md) |  | [optional] 
+**subject** | [**V2SubjectCompact**](V2SubjectCompact.md) |  | [optional] 
+**user** | [**V1pre3UserCompact**](V1pre3UserCompact.md) |  | [optional] 
+**content_map_items** | [**list[MapContent]**](MapContent.md) |  | [optional] 
+**content_items** | **list[str]** |  | [optional] 
+**application_items** | [**list[V1pre3ApplicationCompact]**](V1pre3ApplicationCompact.md) |  | [optional] 
+**app_session_items** | [**list[V2AppSessionCompact]**](V2AppSessionCompact.md) |  | [optional] 
+**bio_sample_items** | [**list[V2BiologicalSampleCompact]**](V2BiologicalSampleCompact.md) |  | [optional] 
+**dataset_items** | [**list[V2DatasetCompact]**](V2DatasetCompact.md) |  | [optional] 
+**file_items** | [**list[V1pre3FileCompact]**](V1pre3FileCompact.md) |  | [optional] 
+**sample_library_items** | [**list[V2LibraryCompact]**](V2LibraryCompact.md) |  | [optional] 
+**library_pool_items** | [**list[V1pre3LibraryPoolCompact]**](V1pre3LibraryPoolCompact.md) |  | [optional] 
+**project_items** | [**list[V1pre3ProjectCompact]**](V1pre3ProjectCompact.md) |  | [optional] 
+**run_items** | [**list[V1pre3RunCompact]**](V1pre3RunCompact.md) |  | [optional] 
+**subject_items** | [**list[V2SubjectCompact]**](V2SubjectCompact.md) |  | [optional] 
+**user_items** | [**list[V1pre3UserCompact]**](V1pre3UserCompact.md) |  | [optional] 
+**href_items** | **str** |  | [optional] 
+**items_displayed_count** | **int** |  | [optional] 
+**items_total_count** | **int** |  | [optional] 
+**allow_duplicates** | **bool** |  | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
