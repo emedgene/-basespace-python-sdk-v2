@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "bssh_sdk_2"
-version = "0.1.0"
+version = "1.2.2"
 description = ""
 authors = ["Emedgene <emedgene@illumina.com>"]
 readme = "README.md"
